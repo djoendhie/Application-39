@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D23034B8B56DAA9BC9C5F1E5 /* Pods_Papbar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1B7ECC44B4C60BF3301B80 /* Pods_Papbar.framework */; };
+		D68DC8851FD136550069A97E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68DC8841FD136550069A97E /* TableViewCell.swift */; };
+		D68DC88D1FD139CC0069A97E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68DC88C1FD139CC0069A97E /* TableViewController.swift */; };
+		D6CB3D621FC9530C004F8248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB3D611FC9530C004F8248 /* AppDelegate.swift */; };
+		D6CB3D641FC9530C004F8248 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB3D631FC9530C004F8248 /* ViewController.swift */; };
+		D6CB3D671FC9530C004F8248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CB3D651FC9530C004F8248 /* Main.storyboard */; };
+		D6CB3D691FC9530C004F8248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CB3D681FC9530C004F8248 /* Assets.xcassets */; };
+		D6CB3D6C1FC9530C004F8248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CB3D6A1FC9530C004F8248 /* LaunchScreen.storyboard */; };
+		D6CB3D771FC9530C004F8248 /* PapbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB3D761FC9530C004F8248 /* PapbarTests.swift */; };
+		D6CB3D821FC9530C004F8248 /* PapbarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB3D811FC9530C004F8248 /* PapbarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6CB3D731FC9530C004F8248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CB3D561FC9530B004F8248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CB3D5D1FC9530C004F8248;
+			remoteInfo = Papbar;
+		};
+		D6CB3D7E1FC9530C004F8248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CB3D561FC9530B004F8248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CB3D5D1FC9530C004F8248;
+			remoteInfo = Papbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B1B7ECC44B4C60BF3301B80 /* Pods_Papbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Papbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B8A34B0E140C3FB98E7407 /* Pods-Papbar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Papbar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Papbar/Pods-Papbar.debug.xcconfig"; sourceTree = "<group>"; };
+		93228E078E886E2210A9CEAE /* Pods-Papbar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Papbar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Papbar/Pods-Papbar.release.xcconfig"; sourceTree = "<group>"; };
+		D68DC8841FD136550069A97E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D68DC88C1FD139CC0069A97E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D6CB3D5E1FC9530C004F8248 /* Papbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Papbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CB3D611FC9530C004F8248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6CB3D631FC9530C004F8248 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6CB3D661FC9530C004F8248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6CB3D681FC9530C004F8248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6CB3D6B1FC9530C004F8248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6CB3D6D1FC9530C004F8248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CB3D721FC9530C004F8248 /* PapbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PapbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CB3D761FC9530C004F8248 /* PapbarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapbarTests.swift; sourceTree = "<group>"; };
+		D6CB3D781FC9530C004F8248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CB3D7D1FC9530C004F8248 /* PapbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PapbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CB3D811FC9530C004F8248 /* PapbarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapbarUITests.swift; sourceTree = "<group>"; };
+		D6CB3D831FC9530C004F8248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6CB3D5B1FC9530C004F8248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23034B8B56DAA9BC9C5F1E5 /* Pods_Papbar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3D6F1FC9530C004F8248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3D7A1FC9530C004F8248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		213A6DA0FD3C7417E52CC47A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62B8A34B0E140C3FB98E7407 /* Pods-Papbar.debug.xcconfig */,
+				93228E078E886E2210A9CEAE /* Pods-Papbar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6CB3D551FC9530B004F8248 = {
+			isa = PBXGroup;
+			children = (
+				D6CB3D601FC9530C004F8248 /* Papbar */,
+				D6CB3D751FC9530C004F8248 /* PapbarTests */,
+				D6CB3D801FC9530C004F8248 /* PapbarUITests */,
+				D6CB3D5F1FC9530C004F8248 /* Products */,
+				213A6DA0FD3C7417E52CC47A /* Pods */,
+				E95EE441C3A3B069E0D1A661 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6CB3D5F1FC9530C004F8248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB3D5E1FC9530C004F8248 /* Papbar.app */,
+				D6CB3D721FC9530C004F8248 /* PapbarTests.xctest */,
+				D6CB3D7D1FC9530C004F8248 /* PapbarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6CB3D601FC9530C004F8248 /* Papbar */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB3D611FC9530C004F8248 /* AppDelegate.swift */,
+				D6CB3D651FC9530C004F8248 /* Main.storyboard */,
+				D6CB3D681FC9530C004F8248 /* Assets.xcassets */,
+				D6CB3D6A1FC9530C004F8248 /* LaunchScreen.storyboard */,
+				D6CB3D6D1FC9530C004F8248 /* Info.plist */,
+				D68DC8841FD136550069A97E /* TableViewCell.swift */,
+				D6CB3D631FC9530C004F8248 /* ViewController.swift */,
+				D68DC88C1FD139CC0069A97E /* TableViewController.swift */,
+			);
+			path = Papbar;
+			sourceTree = "<group>";
+		};
+		D6CB3D751FC9530C004F8248 /* PapbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB3D761FC9530C004F8248 /* PapbarTests.swift */,
+				D6CB3D781FC9530C004F8248 /* Info.plist */,
+			);
+			path = PapbarTests;
+			sourceTree = "<group>";
+		};
+		D6CB3D801FC9530C004F8248 /* PapbarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB3D811FC9530C004F8248 /* PapbarUITests.swift */,
+				D6CB3D831FC9530C004F8248 /* Info.plist */,
+			);
+			path = PapbarUITests;
+			sourceTree = "<group>";
+		};
+		E95EE441C3A3B069E0D1A661 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B1B7ECC44B4C60BF3301B80 /* Pods_Papbar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6CB3D5D1FC9530C004F8248 /* Papbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CB3D861FC9530C004F8248 /* Build configuration list for PBXNativeTarget "Papbar" */;
+			buildPhases = (
+				FD0A445BC267C811935D2AA4 /* [CP] Check Pods Manifest.lock */,
+				D6CB3D5A1FC9530C004F8248 /* Sources */,
+				D6CB3D5B1FC9530C004F8248 /* Frameworks */,
+				D6CB3D5C1FC9530C004F8248 /* Resources */,
+				F46B77EC3E002460266B0468 /* [CP] Embed Pods Frameworks */,
+				36AAF27F64C7576D4213662E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Papbar;
+			productName = Papbar;
+			productReference = D6CB3D5E1FC9530C004F8248 /* Papbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6CB3D711FC9530C004F8248 /* PapbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CB3D891FC9530C004F8248 /* Build configuration list for PBXNativeTarget "PapbarTests" */;
+			buildPhases = (
+				D6CB3D6E1FC9530C004F8248 /* Sources */,
+				D6CB3D6F1FC9530C004F8248 /* Frameworks */,
+				D6CB3D701FC9530C004F8248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6CB3D741FC9530C004F8248 /* PBXTargetDependency */,
+			);
+			name = PapbarTests;
+			productName = PapbarTests;
+			productReference = D6CB3D721FC9530C004F8248 /* PapbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6CB3D7C1FC9530C004F8248 /* PapbarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CB3D8C1FC9530C004F8248 /* Build configuration list for PBXNativeTarget "PapbarUITests" */;
+			buildPhases = (
+				D6CB3D791FC9530C004F8248 /* Sources */,
+				D6CB3D7A1FC9530C004F8248 /* Frameworks */,
+				D6CB3D7B1FC9530C004F8248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6CB3D7F1FC9530C004F8248 /* PBXTargetDependency */,
+			);
+			name = PapbarUITests;
+			productName = PapbarUITests;
+			productReference = D6CB3D7D1FC9530C004F8248 /* PapbarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6CB3D561FC9530B004F8248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Djoendhie;
+				TargetAttributes = {
+					D6CB3D5D1FC9530C004F8248 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					D6CB3D711FC9530C004F8248 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6CB3D5D1FC9530C004F8248;
+					};
+					D6CB3D7C1FC9530C004F8248 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6CB3D5D1FC9530C004F8248;
+					};
+				};
+			};
+			buildConfigurationList = D6CB3D591FC9530B004F8248 /* Build configuration list for PBXProject "Papbar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6CB3D551FC9530B004F8248;
+			productRefGroup = D6CB3D5F1FC9530C004F8248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6CB3D5D1FC9530C004F8248 /* Papbar */,
+				D6CB3D711FC9530C004F8248 /* PapbarTests */,
+				D6CB3D7C1FC9530C004F8248 /* PapbarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6CB3D5C1FC9530C004F8248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB3D6C1FC9530C004F8248 /* LaunchScreen.storyboard in Resources */,
+				D6CB3D691FC9530C004F8248 /* Assets.xcassets in Resources */,
+				D6CB3D671FC9530C004F8248 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3D701FC9530C004F8248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3D7B1FC9530C004F8248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36AAF27F64C7576D4213662E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Papbar/Pods-Papbar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F46B77EC3E002460266B0468 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Papbar/Pods-Papbar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Papbar/Pods-Papbar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD0A445BC267C811935D2AA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Papbar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6CB3D5A1FC9530C004F8248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68DC8851FD136550069A97E /* TableViewCell.swift in Sources */,
+				D6CB3D641FC9530C004F8248 /* ViewController.swift in Sources */,
+				D6CB3D621FC9530C004F8248 /* AppDelegate.swift in Sources */,
+				D68DC88D1FD139CC0069A97E /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3D6E1FC9530C004F8248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB3D771FC9530C004F8248 /* PapbarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3D791FC9530C004F8248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB3D821FC9530C004F8248 /* PapbarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6CB3D741FC9530C004F8248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CB3D5D1FC9530C004F8248 /* Papbar */;
+			targetProxy = D6CB3D731FC9530C004F8248 /* PBXContainerItemProxy */;
+		};
+		D6CB3D7F1FC9530C004F8248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CB3D5D1FC9530C004F8248 /* Papbar */;
+			targetProxy = D6CB3D7E1FC9530C004F8248 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6CB3D651FC9530C004F8248 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CB3D661FC9530C004F8248 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6CB3D6A1FC9530C004F8248 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CB3D6B1FC9530C004F8248 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6CB3D841FC9530C004F8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6CB3D851FC9530C004F8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6CB3D871FC9530C004F8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62B8A34B0E140C3FB98E7407 /* Pods-Papbar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Papbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Papbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6CB3D881FC9530C004F8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93228E078E886E2210A9CEAE /* Pods-Papbar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Papbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Papbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6CB3D8A1FC9530C004F8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PapbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.PapbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Papbar.app/Papbar";
+			};
+			name = Debug;
+		};
+		D6CB3D8B1FC9530C004F8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PapbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.PapbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Papbar.app/Papbar";
+			};
+			name = Release;
+		};
+		D6CB3D8D1FC9530C004F8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PapbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.PapbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Papbar;
+			};
+			name = Debug;
+		};
+		D6CB3D8E1FC9530C004F8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PapbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.PapbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Papbar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6CB3D591FC9530B004F8248 /* Build configuration list for PBXProject "Papbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB3D841FC9530C004F8248 /* Debug */,
+				D6CB3D851FC9530C004F8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CB3D861FC9530C004F8248 /* Build configuration list for PBXNativeTarget "Papbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB3D871FC9530C004F8248 /* Debug */,
+				D6CB3D881FC9530C004F8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CB3D891FC9530C004F8248 /* Build configuration list for PBXNativeTarget "PapbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB3D8A1FC9530C004F8248 /* Debug */,
+				D6CB3D8B1FC9530C004F8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CB3D8C1FC9530C004F8248 /* Build configuration list for PBXNativeTarget "PapbarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB3D8D1FC9530C004F8248 /* Debug */,
+				D6CB3D8E1FC9530C004F8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6CB3D561FC9530B004F8248 /* Project object */;
+}
